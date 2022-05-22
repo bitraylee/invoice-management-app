@@ -1,14 +1,14 @@
 # ML-Enabled Invoice Management Application
 
-This application was made in an attempt to simplify and streamline the B2B account transactions with the help of machine learning. This application helps in predicting accurate date of payment settlement for companies with huge client bases.
+This application was made in an attempt to simplify and streamline the B2B account transactions with the help of machine learning. This application helps in predicting accurate range of settlement date for bill invoices catering to companies with all client bases.
 
 I have used **XGBoost** Algorithm to create an ML model based on the previous fullfilment dates and delays of the client. This model is hosted on a **Flask server** that accepts the selected row data and fills the **aging-bucket** column of the table.
 
-The database is made **MySQL** and the backend is written in **Node.js** and **Express.js**.
+The database is made in **MySQL** and the backend is written in **Node.js** and **Express.js**.
 
 <br></br>
 
-## Installing
+## Installation
 
 #### After downloading the project folder:
 
@@ -22,7 +22,7 @@ The database is made **MySQL** and the backend is written in **Node.js** and **E
     ```bash
        npm install
     ```
-3. Navigate to flask server and run
+3. Navigate to **flask-server** folder and run
 
     ```bash
        %pip install flask_cors
@@ -48,4 +48,10 @@ The database is made **MySQL** and the backend is written in **Node.js** and **E
        npm start
     ```
 
+<br></br>
+
 ## Usage
+
+### Crud Usage
+
+![Demo CountPages alpha](./resources/readme-images/crud-usage-gif.gif)
