@@ -1,3 +1,5 @@
+![Crud usage demo](./resources/readme-images/header-image.png)
+
 # ML-Enabled Invoice Management Application
 
 This application was made in an attempt to simplify and streamline the B2B account transactions with the help of machine learning. This application helps in predicting accurate range of settlement date for bill invoices catering to companies with all client bases.
@@ -54,4 +56,4 @@ The database is made in **MySQL** and the backend is written in **Node.js** and 
 
 ### Crud Usage
 
-![Demo CountPages alpha](./resources/readme-images/crud-usage-gif.gif)
+![Crud usage demo](./resources/readme-images/crud-usage-gif.gif)
